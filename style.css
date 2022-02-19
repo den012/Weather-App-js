@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Russo+One&family=Source+Code+Pro&display=swap');
+
+body{
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    font-family:'Roboto mono';
+    background: url("https://jooinn.com/images/city-landscape-36.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 580px;
+    height: 490px;
+    background-color: rgba(226,226,226,0.7);
+    border-radius: 30px;
+}
+
+.container h1{
+    padding-left: 50px;
+}
+#city{
+    font-size: 2.2rem;
+}
+#temp{
+    font-size: 3rem;
+    font-weight: bolder;
+}
+#description{
+    font-size: 2rem;
+}
+#humidity{
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+#wind{
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+.text{
+    display: flex;
+}
+
+.text img{ 
+    width: 13%;
+    height: 13%;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+button{
+    margin: 0.5rem;
+    border-radius: 50%;
+    border: none;
+    height: 3rem;
+    width: 3rem;
+    outline: none;
+    background-color: #7c7c7c2b;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+
+button:hover{
+    background-color: #7c7c7c6b;
+}
+
+input{
+    border: none;
+    outline: none;
+    padding: 0.5rem;
+    width: 280px;
+    border-radius: 18px;
+    background-color: #7c7c7c2b;
+    color: white;
+    font-family: inherit;
+    font-size: 120%;
+}
