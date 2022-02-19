@@ -1,1 +1,3 @@
-<h1 style="center"> Javascript Weather App </h1>
+<h1 align="center"> Javascript Weather App </h1>
+
+## 🌡️☁️☂️❄️☀️🌪️
